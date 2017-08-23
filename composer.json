@@ -10,7 +10,7 @@
       "version": "4.8.1",
       "dist": {
         "type": "zip",
-        "url": "https://github.com/WordPress/WordPress/archive/4.8.1.zip"
+        "url": "https://tw.wordpress.org/wordpress-4.8-zh_TW.zip"
       },
       "require": {
         "fancyguy/webroot-installer": "1.0.0"
