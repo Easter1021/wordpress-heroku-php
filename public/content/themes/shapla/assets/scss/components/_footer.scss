@@ -1,0 +1,37 @@
+.site-footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #19212a;
+    color: $color--light_grey;
+
+    a {
+        color: $color--grey;
+        text-decoration: none;
+
+        &:hover,
+        &:focus {
+            text-decoration: underline;
+        }
+    }
+    .site-info,
+    .social-navigation {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}
+
+.site-footer-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+// media screen >= 769px
+@media screen and (min-width: $screen-md) {
+    .site-footer-inner {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
