@@ -1,7 +1,7 @@
 {
   "name": "WordPress Heroku PHP",
   "description": "Template for deploying WordPress to Heroku",
-  "repository": "https://github.com/ellefsen/wordpress-heroku-php",
+  "repository": "https://github.com/rc1021/wordpress-heroku-php",
   "success_url": "/",
   "env": {
     "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-php",
@@ -20,6 +20,38 @@
     "WP_CACHE": {
       "description": "Enable caching via Memcachier and Batcache.",
       "value": "true"
+    },
+    "AUTH_KEY": {
+      "description": "Wordpress Authentication Unique Keys and Salts.",
+      "value": "put your unique phrase here"
+    },
+    "SECURE_AUTH_KEY": {
+      "description": "Wordpress Authentication Unique Keys and Salts.",
+      "value": "put your unique phrase here"
+    },
+    "LOGGED_IN_KEY": {
+      "description": "Wordpress Authentication Unique Keys and Salts.",
+      "value": "put your unique phrase here"
+    },
+    "NONCE_KEY": {
+      "description": "Wordpress Authentication Unique Keys and Salts.",
+      "value": "put your unique phrase here"
+    },
+    "AUTH_SALT": {
+      "description": "Wordpress Authentication Unique Keys and Salts.",
+      "value": "put your unique phrase here"
+    },
+    "SECURE_AUTH_SALT": {
+      "description": "Wordpress Authentication Unique Keys and Salts.",
+      "value": "put your unique phrase here"
+    },
+    "LOGGED_IN_SALT": {
+      "description": "Wordpress Authentication Unique Keys and Salts.",
+      "value": "put your unique phrase here"
+    },
+    "NONCE_SALT": {
+      "description": "Wordpress Authentication Unique Keys and Salts.",
+      "value": "put your unique phrase here"
     }
   },
   "addons": [
